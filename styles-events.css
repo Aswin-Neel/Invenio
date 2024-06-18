@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+header .logo img {
+    max-height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+header nav ul li a.active {
+    border-bottom: 2px solid #000;
+}
+
+.events-banner-text {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.top-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.events-list {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-content {
+    flex: 1;
+}
+
+.event-content h2 {
+    margin-top: 0;
+}
+
+.event-content button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.event-content button:hover {
+    background-color: #c0392b;
+}
+
+.event-image {
+    margin-left: 20px;
+}
+
+.event-image img {
+    max-height: 100px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.footer-section {
+    max-width: 30%;
+}
+
+.footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.footer-section .social-icons {
+    display: flex;
+}
+
+.footer-section .social-icons a img {
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+.footer-section form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.footer-section form button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-section form button:hover {
+    background-color: #c0392b;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}

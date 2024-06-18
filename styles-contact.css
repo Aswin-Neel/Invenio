@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+header .logo img {
+    max-height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+header nav ul li a.active {
+    border-bottom: 2px solid #000;
+}
+
+.contact-banner-text {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.contact-section, .map-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.contact-details, .directions {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.mailing-engine, .map {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.contact-details h2, .directions h2, .mailing-engine h2 {
+    margin-top: 0;
+}
+
+.mailing-engine form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mailing-engine form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.mailing-engine form input, .mailing-engine form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mailing-engine form button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mailing-engine form button:hover {
+    background-color: #c0392b;
+}
+
+.map iframe {
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.footer-section {
+    max-width: 30%;
+}
+
+.footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.footer-section .social-icons {
+    display: flex;
+}
+
+.footer-section .social-icons a img {
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+.footer-section form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.footer-section form button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-section form button:hover {
+    background-color: #c0392b;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
